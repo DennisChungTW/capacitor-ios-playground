@@ -15,11 +15,11 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.1.4",
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
     "pug": "^3.0.2",
-    "tailwindcss": "^2.2.4",
-    "vite": "^2.4.1"
+    "vite": "^2.4.1",
+    "vite-plugin-windicss": "^1.2.4",
+    "vue-tsc": "^0.0.24",
+    "windicss": "^3.1.4"
   },
   "author": "DennisChungTW",
   "repository": {

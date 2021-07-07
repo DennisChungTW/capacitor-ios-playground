@@ -1,18 +1,13 @@
-/** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
-  mode: 'jit',
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+ extract: {
+   include: ['./**/*.html', 'src/**/*.{vue,html,jsx,tsx}'],
+ },
+  darkMode: 'class',
   theme: {
-    extend: {
-      // fontFamily: {
-      //   sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
-      // },
-    },
+    extend: {},
   },
-  plugins: [
-    // require('@tailwindcss/forms'),
-    // require('@tailwindcss/typography'),
-    // require('@tailwindcss/line-clamp'),
-    // require('@tailwindcss/aspect-ratio'),
-  ],
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
