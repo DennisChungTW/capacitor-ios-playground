@@ -1,0 +1,4 @@
+{
+  "vetur.completion.tagCasing": "initial",
+  "vetur.validation.templateProps": true
+}
