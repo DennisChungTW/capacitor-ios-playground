@@ -26,6 +26,7 @@ const reset = () => {count.value = 0}
 
 <style>
 .btn-count{
+  touch-action: manipulation;
   @apply border-[0.3rem] border-gray-300 rounded-[0.5rem] h-[4rem] flex-grow text-2xl font-bold;
   @apply transition tracking-wider shadow-md;
   @apply hover:bg-light-400 select-none;
