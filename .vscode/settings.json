@@ -1,4 +1,5 @@
 {
   "vetur.completion.tagCasing": "initial",
-  "vetur.validation.templateProps": true
+  "vetur.validation.templateProps": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

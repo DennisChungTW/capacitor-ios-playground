@@ -1,8 +1,8 @@
 module.exports = {
- extract: {
-   include: ['./**/*.html', 'src/**/*.{vue,html,jsx,tsx}'],
- },
-  darkMode: 'class',
+  extract: {
+    include: ["./**/*.html", "src/**/*.{vue,html,jsx,tsx}"],
+  },
+  darkMode: "class",
   theme: {
     extend: {},
   },
@@ -10,4 +10,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};

@@ -12,8 +12,8 @@ section(
 <script setup>
 defineProps({
   title: {
-    default: 'Section',
-    type: String
-  }
-})
+    default: "Section",
+    type: String,
+  },
+});
 </script>

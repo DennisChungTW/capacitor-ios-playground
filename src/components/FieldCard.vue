@@ -16,12 +16,12 @@ article(
 
 <script>
 export default {
-  name: 'FieldCard',
+  name: "FieldCard",
   props: {
     title: {
-      default: 'Play Ground',
-      type: String
-    }
-  }
-}
+      default: "Play Ground",
+      type: String,
+    },
+  },
+};
 </script>

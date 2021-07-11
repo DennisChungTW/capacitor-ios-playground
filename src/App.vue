@@ -12,15 +12,15 @@ main(
     class="w-[100%] lg:m-12 m-4 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1"
     class="gap-4 md:gap-6 lg:gap-8"
   )
-    FieldCard(title="Enviroment") 
-      EnviromentChunk(title="Capacitor")
+    FieldCard(title="Environment") 
+      EnvironmentChunk(title="Capacitor")
         ToolTag CocoaPod
-      EnviromentChunk(title="VS Code")
+      EnvironmentChunk(title="VS Code")
         ToolTag Volar
         ToolTag WindiCSS
         ToolTag ESLint
         ToolTag Prettier
-      EnviromentChunk(title="Structure")
+      EnvironmentChunk(title="Structure")
         ToolTag Vite
         ToolTag Vue3
         ToolTag WindiCSS
@@ -28,7 +28,7 @@ main(
         ToolTag SCSS
 
     FieldCard(title="Counter Example") 
-      Couter
+      Counter
     FieldCard(title="Start form here")
       PlaceHolder
   div(aria-hidden class="flex-grow")
@@ -46,9 +46,9 @@ main(
 </template>
 
 <script setup>
-import Couter from '/@/components/Couter.vue'
-import FieldCard from '/@/components/FieldCard.vue'
-import EnviromentChunk from '/@/components/EnviromentChunk.vue'
-import ToolTag from '/@/components/ToolTag.vue';
-import PlaceHolder from '/@/components/PlaceHolder.vue';
+import Counter from "/@/components/Counter.vue";
+import FieldCard from "/@/components/FieldCard.vue";
+import EnvironmentChunk from "/@/components/EnvironmentChunk.vue";
+import ToolTag from "/@/components/ToolTag.vue";
+import PlaceHolder from "/@/components/PlaceHolder.vue";
 </script>
