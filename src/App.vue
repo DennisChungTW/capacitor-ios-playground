@@ -31,6 +31,8 @@ main(
       Counter
     FieldCard(title="Start form here")
       PlaceHolder
+    FieldCard(title="Cap open browser")
+      OpenLinkPanel
   div(aria-hidden class="flex-grow")
   footer(
     class="text-gray-600 mt-4"
@@ -51,4 +53,5 @@ import FieldCard from "/@/components/FieldCard.vue";
 import EnvironmentChunk from "/@/components/EnvironmentChunk.vue";
 import ToolTag from "/@/components/ToolTag.vue";
 import PlaceHolder from "/@/components/PlaceHolder.vue";
+import OpenLinkPanel from "./components/OpenLinkPanel.vue";
 </script>

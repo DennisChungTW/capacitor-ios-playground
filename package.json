@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "build:gh": "vite build --base=/capacitor-ios-playground/",
+    "build:ios": "npm run build && npx cap sync",
+    "postbuild:ios": "npx cap open ios",
     "serve": "vite preview"
   },
   "dependencies": {
+    "@capacitor/browser": "^1.0.2",
     "@capacitor/cli": "^3.1.1",
     "@capacitor/core": "^3.1.1",
     "@capacitor/ios": "^3.1.1",
