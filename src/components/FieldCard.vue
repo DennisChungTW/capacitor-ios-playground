@@ -1,7 +1,7 @@
 <template lang="pug">
 article(
-  class="flex flex-col"
-  class="bg-white min-h-[24rem] rounded-xl shadow-md border border-true-gray-200"
+  class="flex flex-col",
+  class="bg-white min-h-[24rem] rounded-xl shadow-md border border-true-gray-200",
   class="hover:shadow-xl transform hover:translate-y-[-0.2rem] transition"
 )
   h2(
@@ -23,5 +23,5 @@ export default {
       type: String,
     },
   },
-};
+}
 </script>

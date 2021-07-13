@@ -1,6 +1,10 @@
 <template lang="pug">
-li.tool-tag
-  span.ml-4
+li(
+  class="tool-tag"
+)
+  span(
+    class="ml-4"
+  )
     slot
 </template>
 

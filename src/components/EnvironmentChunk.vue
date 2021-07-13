@@ -4,7 +4,7 @@ section(
 )
   h2(
     class="m-2 mt-0 font-semibold text-gray-700 text-xl"
-  ) {{title}}
+  ) {{ title }}
   ul
     slot
 </template>
@@ -15,5 +15,5 @@ defineProps({
     default: "Section",
     type: String,
   },
-});
+})
 </script>

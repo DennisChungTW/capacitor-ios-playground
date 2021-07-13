@@ -1,3 +1,4 @@
+// Currently used by windicss
 module.exports = {
   extract: {
     include: ["./**/*.html", "src/**/*.{vue,html,jsx,tsx}"],
@@ -10,4 +11,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}
