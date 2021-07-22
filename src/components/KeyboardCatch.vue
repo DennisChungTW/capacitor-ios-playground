@@ -11,7 +11,7 @@
 
 <script setup>
 import { ref } from "vue"
-ref: tagList = [
+const tagList = ref([
   "button",
   "checkbox",
   "color",
@@ -22,5 +22,17 @@ ref: tagList = [
   "hidden",
   "image",
   "month",
-]
+  "number",
+  "password",
+  "radio",
+  "range",
+  "reset",
+  "search",
+  "submit",
+  "tel",
+  "text",
+  "time",
+  "url",
+  "week",
+])
 </script>
