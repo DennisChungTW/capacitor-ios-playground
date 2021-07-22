@@ -33,8 +33,11 @@ main(
 
     FieldCard(title="Counter Example") 
       Counter
-    FieldCard(title="Start form here")
-      PlaceHolder
+    FieldCard(
+      title="Keyboard Popup test",
+      class="col-span-full"
+    )
+      KeyboardCatch
   div(
     aria-hidden,
     class="flex-grow"
@@ -57,5 +60,6 @@ import Counter from "/@/components/Counter.vue"
 import FieldCard from "/@/components/FieldCard.vue"
 import EnvironmentChunk from "/@/components/EnvironmentChunk.vue"
 import ToolTag from "/@/components/ToolTag.vue"
+import KeyboardCatch from "/@/components/KeyboardCatch.vue"
 import PlaceHolder from "/@/components/PlaceHolder.vue"
 </script>
